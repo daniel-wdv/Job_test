@@ -8,34 +8,33 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>Articles</title>
+
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
-        type='text/css'>
-    <link
-        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
-        rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
 
     <style>
         @media only screen and (min-width:768px) {
-
             header.masthead .page-heading,
             header.masthead .post-heading,
             header.masthead .site-heading {
                 padding: 50px 0
             }
         }
+        
         .post-heading {
-            margin-top:50px;
-            text-align:center;
+            margin-top: 50px;
+            text-align: center;
         }
     </style>
 
@@ -44,18 +43,13 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
+            <div class="container mt-3">
                 <router-link class="navbar-brand" to="/">Job Test </router-link>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
+                <router-link to="/" class="nav-link d-lg-none">Articles</router-link>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                                <router-link to="/" class="nav-link">Articles</router-link>
+                            <router-link to="/" class="nav-link">Articles</router-link>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +59,7 @@
         <router-view></router-view>
     </div>
 
-    <hr>
+    <hr class="mt-5">
 
     <!-- Footer -->
     <footer>
@@ -74,10 +68,10 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a target="_blank" href="https://www.linkedin.com/in/daniel-carvalho-wd/">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
@@ -101,38 +95,38 @@
             1: {
                 "title": "Ploceus rubiginosus",
                 "text": "The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is.The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.",
-                "picture": "https://picsum.photos/1280/250"
+                "picture": "https://images.unsplash.com/photo-1569900245921-240b4779788d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=50"
             },
             2: {
                 "title": "Libellula quadrimaculata",
                 "text": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. \"What's happened to me?\" he thought. It wasn't a dream. His room, a proper human.",
-                "picture": "https://picsum.photos/1280/250"
+                "picture": "https://images.unsplash.com/photo-1569933187771-45d6611e7c7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=50"
             },
             3: {
                 "title": "Lutra canadensis",
                 "text": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with.",
-                "picture": "https://picsum.photos/1280/250"
+                "picture": "https://images.unsplash.com/photo-1569917761723-0a168f30c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=50"
             },
             4: {
                 "title": "Paraxerus cepapi",
                 "text": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan.",
-                "picture": "https://picsum.photos/1280/250"
+                "picture": "https://images.unsplash.com/photo-1569778743510-064d9b5a1bc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=50"
             },
             5: {
                 "title": "Merops nubicus",
                 "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex.",
-                "picture": "https://picsum.photos/1280/250"
+                "picture": "https://images.unsplash.com/photo-1569786871941-07fcfe5e778e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=50"
             }
         };
 
         const Article = Vue.component('Article', {
             props: ['id'],
-            data: function () {
+            data: function() {
                 return {
-                    article: articles[this.id],
+                    article: articles[this.id], //define the variable for the article to be easier to access on the template
                 }
             },
-            mounted: function () {
+            mounted: function() {
                 document.title = this.article.title; //sets the title according to current article id
             },
             // template: '<div class="container"><div class="row"><div class="col-12"><h2 class="mb-5">{{article.title}}</h2><small>{{article.category}}</small><img class="mb-5 img-fluid" v-bind:src="article.picture"><p class="mb-5">{{article.text}}</p></div></div></div>'
@@ -140,7 +134,7 @@
         })
 
         const Home = Vue.component('Home', {
-            props: ['articles'],
+            props: ['articles'], //accept the articles prop sent through the route
             data: () => {
                 return {
 
@@ -148,30 +142,30 @@
             },
             template: '<div> <header class="masthead"> <div class="overlay"></div><div class="container"> <div class="row"> <div class="col-lg-8 col-md-10 mx-auto"> <div class="post-heading"> </div></div></div></header> <article> <div class="container"> <div class="row"> <div class="col-lg-8 col-md-10 mx-auto"> <h2 class="mb-5">Articles</h2><ul class="list-group"><li v-for="(article, id) in articles" class="list-group-item"><router-link :to="{path: `/article/${id}`}">{{article.title}}</router-link></li></ul> </div></div></div></article></div>'
         });
+
+        //define the routes
         const routes = [{
                 path: '/',
                 component: Home,
                 props: {
                     articles: articles
                 }
-            },
-            {
+            }, {
                 path: '/article/:id',
                 component: Article,
                 props: true,
                 meta: {
                     title: 'test'
                 }
-            }
-        ]
-
+            }]
+            //set the routes
         const router = new VueRouter({
             routes
         })
 
         const app = new Vue({
-            router,
-        }).$mount('#app')
+                router,
+            }).$mount('#app') //initialize the app
     </script>
 
 </body>
